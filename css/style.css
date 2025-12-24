@@ -1,33 +1,47 @@
-* {
+/* CSS RESET */
+body,
+img,
+h1,
+p,
+fieldset,
+legend,
+label,
+input,
+select,
+textarea,
+button {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* ESTILO DA PAGINA */
 body {
     background-color: #f9f9f9;
-    font-family: "Work Sans", sans-serif;
-}
-main {
-    width: 100%;
+    padding: 20px;
     max-width: 700px;
     margin: 0 auto;
+    font-family: "Work Sans", sans-serif;
 }
+
 header {
     text-align: center;
     margin-bottom: 20px;
 }
+
 img {
-    width: 100px;
+    width: 95px;
 }
+
 h1 {
     font-family: "Fjalla One", sans-serif;
-    text-align: center;
 }
+
+/* ESTILO DO FORMULARIO */
 form {
-    background-color: #ffffff;
-    padding: 15px;
+    background-color: white;
+    padding: 20px;
     border-radius: 10px;
-    margin-bottom: 100px;
 }
 
 fieldset {
@@ -38,7 +52,7 @@ fieldset {
 }
 legend {
     font-weight: bold;
-    padding: 0 5px;
+    padding: 0 10px;
 }
 
 p {
@@ -66,7 +80,7 @@ input[type="checkbox"] {
 
 input[type="color"] {
     width: 40px;
-    padding: 0 5px;
+    padding: 0px 5px;
 }
 
 label {
